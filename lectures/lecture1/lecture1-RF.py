@@ -25,7 +25,7 @@ def argmax(lst):
     N = len(lst)
 
     if N == 0:
-        raise Value Error("Empty lists are not supported")
+        raise ValueError("Empty lists are not supported")
     
     value_max = -np.inf
     imax = 0
